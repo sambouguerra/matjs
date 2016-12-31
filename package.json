@@ -1,0 +1,27 @@
+{
+  "name": "matjs",
+  "version": "0.0.1",
+  "description": "A Javascript Lib for basic Matrix manipulations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "sam Bouguerra",
+  "license": "MIT",
+  "homepage": "http://labs.jobi.tn",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "mocha": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "es6-module-loader": "^0.17.11"
+  },
+  "keywords": ["matrix", "javascript"]
+}
